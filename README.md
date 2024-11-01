@@ -20,8 +20,8 @@ This repository demonstrates the integration of Wormhole Connect in a React app 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/martin0995/SUI-ts-connect.git
-cd SUI-ts-connect
+git clone https://github.com/wormhole-foundation/demo-basic-connect.git
+cd demo-basic-connect
 ```
 
 2. Install the dependencies:
@@ -40,7 +40,7 @@ The app should now be running on http://localhost:3000.
 
 ## Code Overview
 
-The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network, connecting Sui and Avalanche.
+The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network.
 
 ## Resources
 
