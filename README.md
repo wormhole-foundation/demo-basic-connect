@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repository demonstrates the integration of Wormhole Connect in a React app for bridging tokens between the Sui, Solana, and EVM networks. Using the `@wormhole-foundation/wormhole-connect` package, developers can easily embed a user interface for cross-chain token transfers with minimal configuration.
+This repository demonstrates the integration of Wormhole Connect in a React app for bridging tokens between the Sui and Fuji (Avalanche Testnet) networks. Using the `@wormhole-foundation/wormhole-connect` package, developers can easily embed a user interface for cross-chain token transfers with minimal configuration.
 
 ## Features
 
- - **Cross-Chain Bridge** - enables token transfers between Sui, Solana, and EVM
+ - **Cross-Chain Bridge** - enables token transfers between Sui and Fuji (Avalanche Testnet)
  - **Customizable UI** - displays a demo interface for token bridging with customizable UI options
 
 ## Prerequisites
@@ -40,7 +40,7 @@ The app should now be running on http://localhost:3000.
 
 ## Code Overview
 
-The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network.
+The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network, connecting Sui and Avalanche.
 
 ## Resources
 
