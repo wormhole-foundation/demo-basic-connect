@@ -1,4 +1,4 @@
-# Wormhole Connect: Sui to Fuji (EVM) Bridge Demo
+# Wormhole Connect Demo
 
 ## Introduction
 
