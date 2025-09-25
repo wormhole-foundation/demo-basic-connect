@@ -2,20 +2,23 @@ import './App.css';
 import WormholeConnect, {
 	type config,
 	WormholeConnectTheme,
+	cctpExecutorRoute as getCctpExecutorRoute,
+	cctpV2FastExecutorRoute as getCctpV2FastExecutorRoute,
+	cctpV2StandardExecutorRoute as getCctpV2StandardExecutorRoute,
 } from '@wormhole-foundation/wormhole-connect';
 
 function App() {
 	const config: config.WormholeConnectConfig = {
 		// Define the network
-		network: 'Testnet',
+		network: 'Mainnet',
+		routes: [
+			getCctpExecutorRoute,
+			getCctpV2FastExecutorRoute,
+			getCctpV2StandardExecutorRoute
+		],
 
 		// Define the chains
-		chains: ['Sui', 'Avalanche'],
-
-		// rpcs: {
-		// 	Solana: 'https://mainnet.helius-rpc.com/?api-key=KEY'
-		// },
-		// UI configuration
+		chains: ['Sui', 'Sonic'],
 		ui: {
 			title: 'SUI Connect TS Demo',
 		},
