@@ -40,6 +40,16 @@ npm start
 
 The app should now be running on http://localhost:3000.
 
+### Start the CCTP variant
+
+This repo also includes a CCTP-focused example with pre-configured CCTP routes.
+
+```bash
+npm run start:cctp
+```
+
+This starts the same app but loads `src/App.cctp.tsx` instead of the default `src/App.tsx`.
+
 ## Code Overview
 
 The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network, connecting Sui and Avalanche.
