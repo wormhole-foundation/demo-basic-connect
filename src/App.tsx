@@ -17,7 +17,7 @@ function App() {
 		// },
 		// UI configuration
 		ui: {
-			title: 'SUI Connect TS Demo',
+			title: 'SUI Connect Demo',
 		},
 	};
 
