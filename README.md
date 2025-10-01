@@ -54,6 +54,8 @@ This starts the same app but loads `src/App.cctp.tsx` instead of the default `sr
 
 The main application logic is in `App.tsx`, configuring and rendering the `WormholeConnect` component. This component is imported from `@wormhole-foundation/wormhole-connect` and initialized with a basic configuration for the Testnet network, connecting Sui and Avalanche.
 
+> **_NOTE:_**  when hosting this project for external use, keep in mind mandatory external API requests in your CORS policy by setting "Access-Control-Allow-Origin".
+
 ## Resources
 
 For more information on configuring Wormhole Connect, refer to the [Wormhole Documentation](https://wormhole.com/docs/build/applications/connect/configuration/), which provides detailed guidance on advanced configurations and supported features.
