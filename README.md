@@ -13,8 +13,9 @@ For a complete tutorial on building a Connect app from scratch, please refer to 
 
 ## Prerequisites
 
- - [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed on your system
- - TypeScript installed globally: `npm install -g typescript`
+ - [Node.js](https://nodejs.org/) installed on your system
+ - [Yarn](https://classic.yarnpkg.com/en/docs/install) installed on your system
+ - TypeScript installed globally: `yarn global add typescript`
  - A funded wallet with [Testnet tokens](https://faucets.chain.link/) for deployment and transfers
 
 ## Installation and Setup
@@ -29,13 +30,13 @@ cd demo-basic-connect
 2. Install the dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 3. Start the application:
 
 ```bash
-npm start
+yarn start
 ```
 
 The app should now be running on http://localhost:3000.
@@ -45,7 +46,7 @@ The app should now be running on http://localhost:3000.
 This repo also includes a CCTP-focused example with pre-configured CCTP routes.
 
 ```bash
-npm run start:cctp
+yarn start:cctp
 ```
 
 This starts the same app but loads `src/App.cctp.tsx` instead of the default `src/App.tsx`.
